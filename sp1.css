@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px
+}
+
+.header{
+    text-align: center;
+    font-weight: 50;
+    font-size: 45px;
+    font-family: "Lucida Console";
+    color: rgb(110, 39, 110);
+    line-height: 1.5cm;
+    background-color:pink;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+
+}
+.done{
+    text-align: center;
+    line-height: 2cm;
+    background-color: pink;
+    font-size: 20px;
+     font-family: "Lucida Console";
+ 
+ }
+ i{
+     font-size: 40px;
+     margin-right: 0.25cm;
+     font-family: comfortaa;
+ }
+ .button{
+     padding:10px 20px;
+     background-color:pink;
+     font-size: 20px;
+ }
+
+ @keyframes mo{
+     from{opacity: 0;transform: translateY(20px)}
+     to{opacity: 1;transform: translateY(0)}
+ }
+ .container img{
+    animation-name: mo;
+    animation-duration: 2s;
+
+ }
+ 
+ 
